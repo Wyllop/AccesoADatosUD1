@@ -38,3 +38,10 @@ Si deseas manipular directamente los archivos de datos, ten en cuenta el formato
 ##  Notas Importantes
 Asegúrate de mantener los archivos de datos en las ubicaciones especificadas (libros.txt y prestamos.txt).
 La aplicación no realiza una validación exhaustiva de los datos ingresados, por lo que debes introducir información válida y precisa.
+
+## Pruebas y Errores
+Hemos tenido bastante problemas que hemos ido solucionando sobre la marcha, empezando con el path del proyecto que hay que actualizarlo porque si no el Swing no funciona la parte de visualizacion. Tambien hubo mucho errores por ejemplo con el tema de meter los datos en el libros.txt o prestamos.txt por la el codigo, en vez de ser así "C:\Users\guill\eclipse-workspace\ProyectoUnidad1\libros.txt" lo hemos tenido cambiar por esto: "C:\\Users\\guill\\eclipse-workspace\\ProyectoUnidad1\\libros.txt"
+El problema mas inusual ha sido que despues de finalizado el proyecto de repente en private List<Libro> libros = new ArrayList<>();
+	private List<RegistroPrestamo> registrosPrestamo = new ArrayList<>(); no estaban definidas, y para solucionarlo, creamos un nuevo proyecto y lo volcamos todo y así volvio ha funcionar. Puede ser el motivo algun resiudo de codigo al hacer cambios.
+ 
+
