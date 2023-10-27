@@ -44,6 +44,7 @@ Hemos tenido bastante problemas que hemos ido solucionando sobre la marcha, empe
 El problema mas inusual ha sido que despues de finalizado el proyecto de repente en 
 - private List<Libro> libros = new ArrayList<>();
 - private List<RegistroPrestamo> registrosPrestamo = new ArrayList<>();
+
 No estaban definidas, y para solucionarlo, creamos un nuevo proyecto y lo volcamos todo y así volvio ha funcionar. Puede ser el motivo algun resiudo de codigo al hacer cambios.
  
 
