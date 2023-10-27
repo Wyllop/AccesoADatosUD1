@@ -1,10 +1,11 @@
 # Aplicación de Biblioteca - README
 La Aplicación de Biblioteca es un programa Java que te permite gestionar una biblioteca, realizar búsquedas de libros, agregar nuevos libros, registrar préstamos y devoluciones de libros. A continuación, se proporciona una descripción general de la aplicación y cómo usarla.
 
-##Requisitos Previos
+# #Requisitos Previos
 Antes de ejecutar la Aplicación de Biblioteca, asegúrate de que Java esté instalado en tu sistema y configurado correctamente.
 
-##Funcionalidades Principales
+# #Funcionalidades Principales
+
 1.Interfaz de Usuario
 La aplicación utiliza una interfaz de usuario basada en Java Swing para proporcionar una experiencia fácil de usar. Cuando ejecutes la aplicación, se abrirá una ventana con las siguientes secciones:
 
@@ -24,7 +25,7 @@ Puedes registrar préstamos de libros proporcionando el nombre del usuario que s
 5.Registro de Devoluciones
 Para registrar la devolución de un libro, selecciona un préstamo en la lista de registros de préstamos en el lado derecho de la ventana y presiona el botón "Registrar Devolución". El libro devuelto se eliminará de la lista de registros de préstamos.
 
-##Almacenamiento de Datos
+# #Almacenamiento de Datos
 La aplicación almacena los datos de libros y registros de préstamos en archivos de texto en las siguientes ubicaciones:
 
 Archivo de Libros: libros.txt
@@ -34,6 +35,6 @@ Estos archivos se utilizan para cargar datos existentes al iniciar la aplicació
 Uso de Archivos de Datos
 Si deseas manipular directamente los archivos de datos, ten en cuenta el formato en el que se almacenan los datos en los archivos mencionados anteriormente.
 
-##Notas Importantes
+# #Notas Importantes
 Asegúrate de mantener los archivos de datos en las ubicaciones especificadas (libros.txt y prestamos.txt).
 La aplicación no realiza una validación exhaustiva de los datos ingresados, por lo que debes introducir información válida y precisa.
