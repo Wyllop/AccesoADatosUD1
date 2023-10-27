@@ -1,4 +1,4 @@
-# Aplicación de Biblioteca - README
+# Aplicación de Biblioteca-Acceso Base de Datos
 La Aplicación de Biblioteca es un programa Java que te permite gestionar una biblioteca, realizar búsquedas de libros, agregar nuevos libros, registrar préstamos y devoluciones de libros. A continuación, se proporciona una descripción general de la aplicación y cómo usarla.
 
 ##  Requisitos Previos
